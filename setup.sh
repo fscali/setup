@@ -39,10 +39,11 @@ if [ -d .emacs.d/ ]; then
 fi
 git config --global user.name "Francesco Scali"
 git config --global user.email francesco.scali@gmail.com 
-git clone https://github.com/startup-class/dotfiles.git
-ln -sb dotfiles/.screenrc .
-ln -sb dotfiles/.bash_profile .
-ln -sb dotfiles/.bashrc .
-ln -sb dotfiles/.bashrc_custom .
-ln -sf dotfiles/.emacs.d .
+#git clone https://github.com/startup-class/dotfiles.git
+git clone https://github.com/fscali/DotFiles.git
+ln -sb DotFiles/.screenrc .
+ln -sb DotFiles/.bash_profile .
+ln -sb DotFiles/.bashrc .
+ln -sb DotFiles/.bashrc_custom .
+ln -sf DotFiles/.emacs.d .
 
