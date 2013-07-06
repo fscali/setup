@@ -48,4 +48,7 @@ ln -sb DotFiles/.bashrc_custom .
 ln -sf DotFiles/.emacs.d .
 
 #yasnippet
+cd DotFiles/
+git submodule update --init
+cd ..
 ln -sb ~/dotfiles/yasnippet DotFiles/.emacs.d/plugins/yasnippet/
