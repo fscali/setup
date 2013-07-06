@@ -47,3 +47,5 @@ ln -sb DotFiles/.bashrc .
 ln -sb DotFiles/.bashrc_custom .
 ln -sf DotFiles/.emacs.d .
 
+#yasnippet
+ln -sb ~/dotfiles/yasnippet DotFiles/.emacs.d/plugins/yasnippet/
