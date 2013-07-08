@@ -28,7 +28,7 @@ sudo apt-get install -y rlwrap
 sudo apt-add-repository -y ppa:cassou/emacs
 sudo apt-get update
 sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
-sudo apt-get install -y python-rope python-ropemacs ipython
+sudo apt-get install -y python-rope python-ropemacs ipython python3 ipython3
 sudo apt-get install -y make
 # git pull and install dotfiles as well
 cd $HOME
