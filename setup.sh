@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Simple setup.sh for configuring Ubuntu 12.04 LTS EC2 instance
 # for headless setup. 
 
@@ -47,6 +47,17 @@ ln -sb DotFiles/.bash_profile .
 ln -sb DotFiles/.bashrc .
 ln -sb DotFiles/.bashrc_custom .
 ln -sf DotFiles/.emacs.d .
+ln -sb DotFiles/.vimrc .
+ln -sf DotFiles/.vim/ .
+
+git clone git@bitbucket.org:fscali/vim-configuration.git
+cd ~/vim-configuration
+git submodule update --init
+cd $HOME
+
+ln -sf ~/vim-configuration .vim
+ln -sb ~/vim-configuration/.vimrc .
+
 cd DotFiles/.emacs.d/plugins/auto-complete-1.3.1
 make clean
 make byte-compile
