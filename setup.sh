@@ -5,6 +5,7 @@
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
 sudo apt-get install -y git-core
+sudo apt-get install -y xauth x11-apps
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
