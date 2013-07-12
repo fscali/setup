@@ -18,8 +18,10 @@ nvm use v0.10.12
 # Install jshint to allow checking of JS code within emacs
 
 npm install -g jshint
-npm install cheerio #light implementation for server side jquery
-npm install commander #utility for launching node js from the command line
+npm install -g cheerio #light implementation for server side jquery
+npm install -g commander #utility for launchin g node js from the command line
+npm install -g mocha #utility for unit test
+npm install -g should #utility for unit test
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
 sudo apt-get install -y rlwrap
