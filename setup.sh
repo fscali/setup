@@ -25,7 +25,7 @@ npm install -g should #utility for unit test
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
 sudo apt-get install -y rlwrap
-sudo apt-get install -y phantomjs #headless browser
+
 
 # Install emacs24
 # https://launchpad.net/~cassou/+archive/emacs
