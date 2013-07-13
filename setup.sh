@@ -76,7 +76,7 @@ ln -sb ~/dotfiles/yasnippet DotFiles/.emacs.d/plugins/yasnippet/
 mkdir -p ~/dev/
 git clone git@github.com:fscali/js-assessment.git ~/dev/js-assessment/
 cd ~/dev/js-assessment/
-node install
+npm install
 cd $HOME
 #tools
 ##phantomjs
