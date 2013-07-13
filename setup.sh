@@ -71,3 +71,11 @@ cd ~/DotFiles/
 git submodule update --init
 cd ..
 ln -sb ~/dotfiles/yasnippet DotFiles/.emacs.d/plugins/yasnippet/
+
+#tools
+##phantomjs
+mkdir -p ~/bin/
+mkdir -p ~/tools
+wget https://phantomjs.googlecode.com/files/phantomjs-1.9.1-linux-x86_64.tar.bz2 -O - | tar -jxv -C ~/tools
+ln -s  ~/tools/phantomjs-1.9.1-linux-x86_64/bin/phantomjs ~/bin/phantomjs
+
