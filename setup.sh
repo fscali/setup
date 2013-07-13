@@ -72,6 +72,12 @@ git submodule update --init
 cd ..
 ln -sb ~/dotfiles/yasnippet DotFiles/.emacs.d/plugins/yasnippet/
 
+#dev
+mkdir -p ~/dev/
+git clone git@github.com:fscali/js-assessment.git ~/dev/js-assessment/
+cd ~/dev/js-assessment/
+node install
+cd $HOME
 #tools
 ##phantomjs
 mkdir -p ~/bin/
